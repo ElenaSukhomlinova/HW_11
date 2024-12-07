@@ -12,5 +12,6 @@ public class Main {
 
         Alisa.setYear(2018);
         System.out.println(Alisa.getBookName() + " " + Alisa.getYear());
+
     }
 }
