@@ -3,6 +3,8 @@ public class Main {
 
         Author bulychev = new Author("Kir","Bulychev");
         Author pushkin = new Author("Alexandr", "Pushkin");
+        Author four = new Author("Alexandr", "Pushkin");
+
 
         Book Alisa = new Book("Alisa v strane chudes", bulychev, 2024);
         Book EvgeniyOnegin = new Book("Evgeniy Onegin", pushkin, 1986);
@@ -18,6 +20,7 @@ public class Main {
         System.out.println(Alisa);
 
         System.out.println(three == EvgeniyOnegin);
+        System.out.println(four);
 
     }
 }
